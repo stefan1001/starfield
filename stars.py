@@ -38,9 +38,9 @@ for i in range(1,100):
 done = False
 while not done:
 
-    for event in pygame.event.get(): # User did something
-        if event.type == pygame.QUIT: # If user clicked close
-            done=True # Flag that we are done so we exit this loop
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done=True
     screen.fill((0, 0, 0))
 
     for star in stars:
